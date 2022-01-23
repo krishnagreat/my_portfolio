@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header class="bg-info container-fluid" id="MyHeader">
+        <h1 class="display-3 text-center text-light py-2 font-weight-bolder " id="aboutme">Krishna</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mr-auto font-weight-bold">
+                    <li class="nav-item"><a class="nav-link text-light" href="#MyHeader">About me</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="banner" class="bg-info container-fluid">
+        <div class="row">
+            <div class="col-sm-6 text-center container">
+                <img src="img/avater.png" class="img-fluid">
+            </div>
+            <div class="col-sm-6 text-center font-weight-bolder">
+                <p class="display-4 mt-5 pt-5">The developer</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row  bg-dark">
+            <h1 class="display-4 text-left p-1 text-light font-weight-bold bg-dark" id="education">Education</h1>
+        </div>
+        <div class="row mt-0">
+            <div class="col-sm-6 text-center bg-dark text-light">
+                <i class="bi bi-book icon-education pt-5"></i>
+                <h5 class="display-4 font-weight-bold">New Era Public School</h5>
+            </div>
+            <div class="col-sm-6 text-center bg-dark text-light">
+                <h4 class="py-5 line-height">
+                    High School: grade 9 <br/>
+                    Subjects: Maths,English,Science,Hindi<br/>
+                    Social-science
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="skill-section">
+        <div class="row ml-4" id="skill-title">
+            <h1 class="display-4 text-left ml-3 p-1 text-light font-weight-bold" id="skills">Skills</h1>
+        </div>
+        <div class="row mx-5 px-5">
+            <div class="col-sm-6 text-center">
+                <i class="bi bi-globe skill-icon"></i>
+                <h5 class="text-light">WEB-DESIGINGING</h5>
+            </div>
+            <div class="col-sm-6 text-center">
+                <i class="bi bi-controller skill-icon"></i>
+                <h5 class="text-light">ESPORTS</h5>
+            </div>
+        </div>
+        <div class="row mx-5 px-5">
+            <div class="col-sm-6 text-center">
+                <i class="bi bi-camera-reels-fill skill-icon"></i>
+                <h5 class="text-light">VIDEO-EDITING</h5>
+            </div>
+            <div class="col-sm-6 text-center">
+                <i class="bi bi-grid-1x2-fill skill-icon"></i>
+                <h5 class="text-light">SOCIAL-MEDIA-MANAGER</h5>
+            </div>
+        </div>
+    </div>
+    <section class="container-fluid" style="background-color: darkgray;" id="contact">
+        <div class="row">
+            <h1 class="display-4 text-left ml-3 p-1 font-weight-bold" id="contactus" style="color: #3936ab;"
+                id="contact-title">
+                Contact-Us</h1>
+        </div>
+        <div class="row mx-5">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 text-center card">
+                <img class="card-img-top img-fluid" src="http://api.qrserver.com/v1/create-qr-code/?color=3936ab&amp;bgcolor=FFFFFF&amp;data=Hi+My+name+is+Krishna+Behl.%0AWelcome+to+my+website+%0Ayou+can+connect+with+me+using+this+website&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L"
+                    alt="qr code"/>
+
+                <div class="card-body text-center">
+                    <h5 class="card-title font-weight-bolder">Contact Details</h5>
+                    <ul class="card-text font-weight-bold p-0"   style="list-style:none">
+                        <li>Krishna</li>
+                        <li>New Delhi,India</li>
+                        <li>8497989838</li>
+                    </ul>
+                    <button type="button" class="btn btn-primary" id="launch" data-toggle="modal"
+                        data-target="#exampleModal">Post a comment</button>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </section>
+    <section class="bg-dark container-fluid">
+        <div class="row">
+            <div class="col-sm-10  text-left text-muted">
+                <div class="row" id="footerdiscription">
+                    <div class="col-sm-6">
+                        <h5 class="p-1">Aboutme</h5>
+                        <p class="p-1">KrishnaBehl.com is a simple static site in generated bootstrap.
+                            It contains my personal,professional info and skills i have gathered till now its an ongoing
+                            project more projects like this will appear in the future.
+                        </p>
+                    </div>
+                    <div class="col-sm-6" style="text-decoration:none;list-style:none">
+                        <h5 class="p-1">QuickLinks</h5>
+                        <ul class="my-list">
+                            <li><a class="my-link" href="#aboutme">AboutMe</a></li>
+                            <li><a class="my-link" href="#education">Education</a></li>
+                            <li><a class="my-link" href="#skills">Skills</a></li>
+                            <li><a class="my-link" href="#contactus">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 text-muted ">
+                <a href="#MyHeader" type="" class="btn btn-lg btn-outline secondary text-light" id="totop">Back to the
+                    top</a>
+            </div>
+        </div>
+        <hr class="bg-light ">
+        <h5 class="text-center text-light pt-2">Copyright &#169
+            2022 All Rights Reserved by Krishna</h5>
+    </section>
+    <section id="form-modal">
+        <!-- modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">post a comment</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="GET">
+                            <div>
+                                <label for="email">Email Address:</label>
+                                <input type="email" name="my_email" id="email" value="" placeholder="enter your email">
+                            </div>
+                            <div>
+                                <label for="text">Enter a comment:</label>
+                                <input type="text" name="my_comment" id="comment" value=""
+                                    placeholder="enter your comment">
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Post the comment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+
+
+</body>
+
+</html>
